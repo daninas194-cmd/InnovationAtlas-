@@ -324,3 +324,4 @@ const plans = [
   { name: "Ultimate", nameEn: "Ultimate", price: "149€", sub: "paiement unique", subEn: "one-time payment", badge: "MEILLEUR", features: ["Tout illimité à VIE", "Tous les pays (15+)", "Templates business plan", "Support prioritaire 24/7", "Mises à jour gratuites"], featuresEn: ["Everything unlimited", "All countries", "24/7 support", "1h consultation"]  
   }
 ];
+export default App;
