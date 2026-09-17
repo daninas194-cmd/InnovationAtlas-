@@ -615,7 +615,7 @@ export default function InnovationAtlas() {
                 <Sparkles size={14} color="white" />
                 <span style={{ color: "white", fontWeight: 600, fontSize: 13 }}>{t.hero.badge}</span>
               </div> 
-               </div>
+               
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.9)", marginBottom: 10, fontWeight: 600 }}>{t.hero.subtitle}</p>
               <p style={{ fontSize: 14, color: "rgba(255,255,255,0.65)", marginBottom: 36, maxWidth: 500, margin: "0 auto 36px" }}>{t.hero.desc}</p>
               <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
