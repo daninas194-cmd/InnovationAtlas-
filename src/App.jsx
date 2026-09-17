@@ -559,7 +559,7 @@ export default function InnovationAtlas() {
             <div style={{ position: "relative" }}>
               <button onClick={(e) => { e.stopPropagation(); setShowNotifs(!showNotifs); }} style={{ padding: "5px 8px", borderRadius: 8, border: "1px solid #E5E7EB", background: showNotifs ? `${C.violet}10` : "white", cursor: "pointer", position: "relative" }}>
                 <Bell size={15} color={showNotifs ? C.violet : C.gray} />
-                {unreadNotifs > 0 && <span style={{ position: "absolute", top: 1, right: 1, background: C.orange, color: "white", borderRadius: "50%", width: 12, height: 12, fontSize: 8, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800 }}>{unreadNotifs}</span>}
+                {user && unreadNotifs > 0 && <span style={{ position: "absolute", top: 1, right: 1, background: C.orange, color: "white", borderRadius: "50%", width: 12, height: 12, fontSize: 8, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800 }}>{unreadNotifs}</span>}
               </button>
               {showNotifs && (
                 <div onClick={e => e.stopPropagation()} style={{ position: "absolute", right: 0, top: "120%", background: "white", borderRadius: 14, boxShadow: "0 20px 60px rgba(0,0,0,0.2)", border: "1px solid #E5E7EB", width: 280, zIndex: 500 }}>
